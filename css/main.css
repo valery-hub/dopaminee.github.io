@@ -18,6 +18,7 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
+  
 }
 
 .night {
@@ -1318,4 +1319,9 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
+  background-image: url('img/doraemon.png'), url('img/hello-kitty.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 200px, 200px;
+
 }/*# sourceMappingURL=main.css.map */
