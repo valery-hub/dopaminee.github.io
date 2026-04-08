@@ -1348,43 +1348,4 @@ background-size: 20px 20px;
   width: 100%;
 }
 
-/* Mata */
-.eye {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background: black;
-  border-radius: 50%;
-  animation: blink 4s infinite;
-}
-
-/* Posisi mata (atur sesuai gambar kamu ya) */
-.doraemon .eye-left {
-  top: 40px;
-  left: 45px;
-}
-
-.doraemon .eye-right {
-  top: 40px;
-  right: 45px;
-}
-
-.kitty .eye-left {
-  top: 35px;
-  left: 40px;
-}
-
-.kitty .eye-right {
-  top: 35px;
-  right: 40px;
-}
-
-/* Animasi kedip */
-@keyframes blink {
-  0%, 90%, 100% {
-    transform: scaleY(1);
-  }
-  95% {
-    transform: scaleY(0.1);
-  }
 }/*# sourceMappingURL=main.css.map */
